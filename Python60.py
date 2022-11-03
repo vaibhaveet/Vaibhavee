@@ -1,11 +1,10 @@
 
-num = 17 
-for ( i=2; i < num; i++):
-    if (num %  i==0):
-        print(num, "is not a prime number")
-        break
+n = 17 
+for ( i=2; i<n; i++):
+    if (n % i==0):
+        print(n, "is not a prime number")
     else
-        print (num, "is a prime number")
+        print (n, "is a prime number")
 
     
     
